@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  just_audio: ^0.9.46
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -17,3 +17,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - lib/res/music/example.mp3
+    - lib/res/music/Annisokay - Never Enough.mp3
